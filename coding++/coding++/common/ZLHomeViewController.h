@@ -1,5 +1,6 @@
+
 //
-//  ViewController.h
+//  ZLBaseViewController.h
 //  coding++
 //
 //  Created by L_R on 2018/12/26.
@@ -8,8 +9,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZLHomeViewController : UIViewController
 
 @end
-

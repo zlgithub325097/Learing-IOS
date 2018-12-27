@@ -1,22 +1,23 @@
 //
-//  AppDelegate.m
+//  ZLAppDelegate.m
 //  coding++
 //
 //  Created by L_R on 2018/12/26.
 //  Copyright © 2018年 L_R. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ZLAppDelegate.h"
+#import "ZLHomeViewController.h"
 
-@interface AppDelegate ()
-
-@end
-
-@implementation AppDelegate
-
+@implementation ZLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ZLHomeViewController *homeVc = [[ZLHomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    _window.rootViewController = nav;
+    [_window makeKeyAndVisible];
     return YES;
 }
 
@@ -46,6 +47,4 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
 @end

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ZLTableViewController.h
 //  coding++
 //
 //  Created by L_R on 2018/12/26.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ZLTableViewController : UIViewController
 
 @end
-
