@@ -7,11 +7,19 @@
 //
 
 #import "ZLUICommonViewController.h"
-
+#import "ZLUIListScrollViewController.h"
 @interface ZLUICommonViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray *arr;
+@property (nonatomic,strong) UIScrollView *scrollView;
 @end
+
+
+typedef NS_ENUM(NSInteger,UI)
+{
+    UI_UIScrollView,
+    UI_UITableView
+};
 
 @implementation ZLUICommonViewController
 
@@ -24,7 +32,7 @@
     _tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
-    _arr = @[@"UITableView"];
+    _arr = @[@"UIScrollView",@"UITableView"];
     
 }
 
@@ -54,5 +62,20 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return 0.1;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ZLUIListScrollViewController *listScrollViewVc = [[ZLUIListScrollViewController alloc] init];
+    switch (indexPath.row) {
+        case UI_UIScrollView:
+            [self.navigationController pushViewController:listScrollViewVc animated:YES];
+            break;
+        case UI_UITableView:
+            
+            break;
+        default:
+            break;
+    }
 }
 @end
