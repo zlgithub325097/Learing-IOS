@@ -8,6 +8,7 @@
 
 #import "ZLHomeViewController.h"
 #import "ZLUICommonViewController.h"
+#import "ZLKLCommonViewController.h"
 @interface ZLHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray *arr;
@@ -83,7 +84,7 @@ typedef NS_ENUM(NSInteger,SUMMARY)
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ZLUICommonViewController *comUIVc = [[ZLUICommonViewController alloc] init];
-
+    ZLKLCommonViewController *comKLVc = [[ZLKLCommonViewController alloc] init];
     switch (indexPath.row) {
         case SUMMARY_ui:
             [self.navigationController pushViewController:comUIVc animated:YES];
@@ -95,7 +96,7 @@ typedef NS_ENUM(NSInteger,SUMMARY)
             
             break;
         case SUMMARY_knowledge:
-            
+            [self.navigationController pushViewController:comKLVc animated:YES];
             break;
             
         default:

@@ -18,7 +18,6 @@
     [super viewDidLoad];
     self.title = @"Base-ScrollView";
     self.view.backgroundColor = [UIColor whiteColor];
-    
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0,64,self.view.frame.size.width,self.view.frame.size.height)];
     _scrollView.backgroundColor = [UIColor orangeColor];
     
@@ -41,6 +40,4 @@
     _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width,CGRectGetMaxY(view2.frame));
     
 }
-
-
 @end

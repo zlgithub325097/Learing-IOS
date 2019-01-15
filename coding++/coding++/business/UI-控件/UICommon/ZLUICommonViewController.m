@@ -11,7 +11,7 @@
 @interface ZLUICommonViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSArray *arr;
-@property (nonatomic,strong) UIScrollView *scrollView;
+
 @end
 
 

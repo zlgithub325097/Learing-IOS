@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// block 声明
+typedef void (^zlBlock)(NSString * str);
 @interface ZLBlock_B_ReverseValueViewController : UIViewController
-
+@property(nonatomic,copy) zlBlock block;
 @end

@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZLBlock_ViewController : UIViewController
+typedef NS_ENUM(NSInteger,status) {
+    statusOne,
+    statusTwo
+};
 
+typedef enum:NSInteger {
+    typeOne,
+    typeTwo
+}type;
+
+
+@interface ZLBlock_ViewController : UIViewController
+-(void)loadData:(status)type;
+-(void)load:(type)type;
 @end
