@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44EE7EEDA5570B22AECAF6B5 /* libPods-coding++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A7F686DB86AE32BA53DBC /* libPods-coding++.a */; };
 		AC1914D721D754150012E347 /* ZLUIListScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914D621D754150012E347 /* ZLUIListScrollViewController.m */; };
 		AC1914DA21D758090012E347 /* ZLBaseUIScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914D921D758090012E347 /* ZLBaseUIScrollViewController.m */; };
+		AC1914E521EDC0700012E347 /* ZLBlock_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914E421EDC0700012E347 /* ZLBlock_ViewController.m */; };
+		AC1914EA21EDC2CB0012E347 /* ZLKLCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914E921EDC2CB0012E347 /* ZLKLCommonViewController.m */; };
+		AC1914ED21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914EC21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m */; };
+		AC1914F021EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914EF21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m */; };
+		AC1914F321EDD89D0012E347 /* ZLBlock_Para_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914F221EDD89D0012E347 /* ZLBlock_Para_ViewController.m */; };
 		ACE79DC021D32A6100DDAE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE79DBF21D32A6100DDAE9A /* Assets.xcassets */; };
 		ACE79DC321D32A6100DDAE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE79DC121D32A6100DDAE9A /* LaunchScreen.storyboard */; };
 		ACE79DC621D32A6100DDAE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE79DC521D32A6100DDAE9A /* main.m */; };
@@ -38,10 +44,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C62C3ECE75D37A63AD9EFF6 /* Pods-coding++.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coding++.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coding++/Pods-coding++.debug.xcconfig"; sourceTree = "<group>"; };
+		9F4A7F686DB86AE32BA53DBC /* libPods-coding++.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coding++.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB633550BC159FCB3FD9ED95 /* Pods-coding++.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coding++.release.xcconfig"; path = "Pods/Target Support Files/Pods-coding++/Pods-coding++.release.xcconfig"; sourceTree = "<group>"; };
 		AC1914D521D754150012E347 /* ZLUIListScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLUIListScrollViewController.h; sourceTree = "<group>"; };
 		AC1914D621D754150012E347 /* ZLUIListScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLUIListScrollViewController.m; sourceTree = "<group>"; };
 		AC1914D821D758090012E347 /* ZLBaseUIScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBaseUIScrollViewController.h; sourceTree = "<group>"; };
 		AC1914D921D758090012E347 /* ZLBaseUIScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBaseUIScrollViewController.m; sourceTree = "<group>"; };
+		AC1914DC21DC59C60012E347 /* ZLcoding-Prifix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZLcoding-Prifix.pch"; sourceTree = "<group>"; };
+		AC1914E321EDC0700012E347 /* ZLBlock_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_ViewController.h; sourceTree = "<group>"; };
+		AC1914E421EDC0700012E347 /* ZLBlock_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_ViewController.m; sourceTree = "<group>"; };
+		AC1914E821EDC2CB0012E347 /* ZLKLCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLKLCommonViewController.h; sourceTree = "<group>"; };
+		AC1914E921EDC2CB0012E347 /* ZLKLCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLKLCommonViewController.m; sourceTree = "<group>"; };
+		AC1914EB21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_A_ReverseValueViewController.h; sourceTree = "<group>"; };
+		AC1914EC21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_A_ReverseValueViewController.m; sourceTree = "<group>"; };
+		AC1914EE21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_B_ReverseValueViewController.h; sourceTree = "<group>"; };
+		AC1914EF21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_B_ReverseValueViewController.m; sourceTree = "<group>"; };
+		AC1914F121EDD89D0012E347 /* ZLBlock_Para_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_Para_ViewController.h; sourceTree = "<group>"; };
+		AC1914F221EDD89D0012E347 /* ZLBlock_Para_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_Para_ViewController.m; sourceTree = "<group>"; };
 		ACE79DB321D32A5D00DDAE9A /* coding++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coding++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE79DBF21D32A6100DDAE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE79DC221D32A6100DDAE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EE7EEDA5570B22AECAF6B5 /* libPods-coding++.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556B8347BA7F0DFCA71BCB3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4A7F686DB86AE32BA53DBC /* libPods-coding++.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC1914D121D752450012E347 /* uiscrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +152,53 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		AC1914E021EDC0430012E347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC1914E121EDC0430012E347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC1914E221EDC0430012E347 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC1914E321EDC0700012E347 /* ZLBlock_ViewController.h */,
+				AC1914E421EDC0700012E347 /* ZLBlock_ViewController.m */,
+				AC1914EB21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.h */,
+				AC1914EC21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m */,
+				AC1914EE21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.h */,
+				AC1914EF21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m */,
+				AC1914F121EDD89D0012E347 /* ZLBlock_Para_ViewController.h */,
+				AC1914F221EDD89D0012E347 /* ZLBlock_Para_ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC1914E621EDC0D90012E347 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				ACE79E0121D4817500DDAE9A /* ZLUICommonViewController.h */,
+				ACE79E0221D4817500DDAE9A /* ZLUICommonViewController.m */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		AC1914E721EDC28A0012E347 /* KLCommon */ = {
+			isa = PBXGroup;
+			children = (
+				AC1914E821EDC2CB0012E347 /* ZLKLCommonViewController.h */,
+				AC1914E921EDC2CB0012E347 /* ZLKLCommonViewController.m */,
+			);
+			path = KLCommon;
+			sourceTree = "<group>";
+		};
 		ACE79DAA21D32A5C00DDAE9A = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +206,8 @@
 				ACE79DCE21D32A6100DDAE9A /* coding++Tests */,
 				ACE79DD921D32A6200DDAE9A /* coding++UITests */,
 				ACE79DB421D32A5D00DDAE9A /* Products */,
+				DDACAF01DC4A05659A032CE0 /* Pods */,
+				556B8347BA7F0DFCA71BCB3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +276,7 @@
 		ACE79DF321D47B8500DDAE9A /* other */ = {
 			isa = PBXGroup;
 			children = (
+				AC1914DC21DC59C60012E347 /* ZLcoding-Prifix.pch */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -216,6 +295,10 @@
 		ACE79DF821D4801E00DDAE9A /* knowledge-小知识 */ = {
 			isa = PBXGroup;
 			children = (
+				AC1914E721EDC28A0012E347 /* KLCommon */,
+				AC1914E221EDC0430012E347 /* Controller */,
+				AC1914E021EDC0430012E347 /* Model */,
+				AC1914E121EDC0430012E347 /* View */,
 			);
 			path = "knowledge-小知识";
 			sourceTree = "<group>";
@@ -237,6 +320,7 @@
 		ACE79DFB21D4801F00DDAE9A /* UI-控件 */ = {
 			isa = PBXGroup;
 			children = (
+				AC1914E621EDC0D90012E347 /* UICommon */,
 				AC1914D121D752450012E347 /* uiscrollView */,
 				ACE79DFC21D480BE00DDAE9A /* tableview */,
 			);
@@ -277,12 +361,19 @@
 		ACE79E0021D4813600DDAE9A /* common */ = {
 			isa = PBXGroup;
 			children = (
-				ACE79E0121D4817500DDAE9A /* ZLUICommonViewController.h */,
-				ACE79E0221D4817500DDAE9A /* ZLUICommonViewController.m */,
 				ACE79DEB21D32EDF00DDAE9A /* ZLHomeViewController.h */,
 				ACE79DEC21D32EDF00DDAE9A /* ZLHomeViewController.m */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		DDACAF01DC4A05659A032CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C62C3ECE75D37A63AD9EFF6 /* Pods-coding++.debug.xcconfig */,
+				AB633550BC159FCB3FD9ED95 /* Pods-coding++.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE79DDF21D32A6200DDAE9A /* Build configuration list for PBXNativeTarget "coding++" */;
 			buildPhases = (
+				B99C8AE9F8A83348DEE96BAE /* [CP] Check Pods Manifest.lock */,
 				ACE79DAF21D32A5D00DDAE9A /* Sources */,
 				ACE79DB021D32A5D00DDAE9A /* Frameworks */,
 				ACE79DB121D32A5D00DDAE9A /* Resources */,
@@ -409,6 +501,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B99C8AE9F8A83348DEE96BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coding++-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACE79DAF21D32A5D00DDAE9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -416,8 +529,13 @@
 			files = (
 				ACE79E0321D4817500DDAE9A /* ZLUICommonViewController.m in Sources */,
 				ACE79DC621D32A6100DDAE9A /* main.m in Sources */,
+				AC1914F321EDD89D0012E347 /* ZLBlock_Para_ViewController.m in Sources */,
+				AC1914E521EDC0700012E347 /* ZLBlock_ViewController.m in Sources */,
+				AC1914ED21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m in Sources */,
 				AC1914DA21D758090012E347 /* ZLBaseUIScrollViewController.m in Sources */,
 				ACE79DED21D32EDF00DDAE9A /* ZLHomeViewController.m in Sources */,
+				AC1914F021EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m in Sources */,
+				AC1914EA21EDC2CB0012E347 /* ZLKLCommonViewController.m in Sources */,
 				ACE79DEA21D32DD000DDAE9A /* ZLAppDelegate.m in Sources */,
 				AC1914D721D754150012E347 /* ZLUIListScrollViewController.m in Sources */,
 				ACE79DF221D36F6500DDAE9A /* ZLTableViewController.m in Sources */,
@@ -508,6 +626,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -564,6 +683,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -579,10 +699,13 @@
 		};
 		ACE79DE021D32A6200DDAE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C62C3ECE75D37A63AD9EFF6 /* Pods-coding++.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KDR5S4RK42;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/l_r/Desktop/git学习笔记/Learing-IOS/coding++/coding++/other/ZLcoding-Prifix.pch";
 				INFOPLIST_FILE = "coding++/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -597,10 +720,13 @@
 		};
 		ACE79DE121D32A6200DDAE9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB633550BC159FCB3FD9ED95 /* Pods-coding++.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KDR5S4RK42;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/l_r/Desktop/git学习笔记/Learing-IOS/coding++/coding++/other/ZLcoding-Prifix.pch";
 				INFOPLIST_FILE = "coding++/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
