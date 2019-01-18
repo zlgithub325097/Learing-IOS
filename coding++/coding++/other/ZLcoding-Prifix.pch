@@ -10,5 +10,5 @@
 #define ZLcoding_Prifix_pch
 #import "Masonry.h"
 #import "PPNetworkHelper.h"
-
+#import "commonSetting.h"
 #endif /* ZLcoding_Prifix_pch */

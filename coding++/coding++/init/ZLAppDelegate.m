@@ -18,6 +18,13 @@
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
     _window.rootViewController = nav;
     [_window makeKeyAndVisible];
+    
+    
+    [PPNetworkHelper networkStatusWithBlock:^(PPNetworkStatusType status) {
+        
+    }];
+    
+    
     return YES;
 }
 

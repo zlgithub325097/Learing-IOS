@@ -15,6 +15,8 @@
 		AC1914ED21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914EC21EDCE850012E347 /* ZLBlock_A_ReverseValueViewController.m */; };
 		AC1914F021EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914EF21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m */; };
 		AC1914F321EDD89D0012E347 /* ZLBlock_Para_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1914F221EDD89D0012E347 /* ZLBlock_Para_ViewController.m */; };
+		ACCB70AC21EDE63500071A77 /* ZLBlock_Para_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB70AB21EDE63500071A77 /* ZLBlock_Para_Model.m */; };
+		ACCB70AF21EDE66300071A77 /* ZLBlock_Para_cellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCB70AE21EDE66300071A77 /* ZLBlock_Para_cellView.m */; };
 		ACE79DC021D32A6100DDAE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE79DBF21D32A6100DDAE9A /* Assets.xcassets */; };
 		ACE79DC321D32A6100DDAE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE79DC121D32A6100DDAE9A /* LaunchScreen.storyboard */; };
 		ACE79DC621D32A6100DDAE9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE79DC521D32A6100DDAE9A /* main.m */; };
@@ -62,6 +64,11 @@
 		AC1914EF21EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_B_ReverseValueViewController.m; sourceTree = "<group>"; };
 		AC1914F121EDD89D0012E347 /* ZLBlock_Para_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_Para_ViewController.h; sourceTree = "<group>"; };
 		AC1914F221EDD89D0012E347 /* ZLBlock_Para_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_Para_ViewController.m; sourceTree = "<group>"; };
+		ACCB70AA21EDE63500071A77 /* ZLBlock_Para_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_Para_Model.h; sourceTree = "<group>"; };
+		ACCB70AB21EDE63500071A77 /* ZLBlock_Para_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_Para_Model.m; sourceTree = "<group>"; };
+		ACCB70AD21EDE66300071A77 /* ZLBlock_Para_cellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBlock_Para_cellView.h; sourceTree = "<group>"; };
+		ACCB70AE21EDE66300071A77 /* ZLBlock_Para_cellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBlock_Para_cellView.m; sourceTree = "<group>"; };
+		ACCB70B021EDE8C400071A77 /* commonSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commonSetting.h; sourceTree = "<group>"; };
 		ACE79DB321D32A5D00DDAE9A /* coding++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coding++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE79DBF21D32A6100DDAE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE79DC221D32A6100DDAE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,6 +162,8 @@
 		AC1914E021EDC0430012E347 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACCB70AA21EDE63500071A77 /* ZLBlock_Para_Model.h */,
+				ACCB70AB21EDE63500071A77 /* ZLBlock_Para_Model.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +171,8 @@
 		AC1914E121EDC0430012E347 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACCB70AD21EDE66300071A77 /* ZLBlock_Para_cellView.h */,
+				ACCB70AE21EDE66300071A77 /* ZLBlock_Para_cellView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				AC1914DC21DC59C60012E347 /* ZLcoding-Prifix.pch */,
+				ACCB70B021EDE8C400071A77 /* commonSetting.h */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -313,6 +325,7 @@
 		ACE79DFA21D4801E00DDAE9A /* multithreading-多线程 */ = {
 			isa = PBXGroup;
 			children = (
+				ACF0B9B521F1A0C600C5C7BC /* Controller */,
 			);
 			path = "multithreading-多线程";
 			sourceTree = "<group>";
@@ -365,6 +378,13 @@
 				ACE79DEC21D32EDF00DDAE9A /* ZLHomeViewController.m */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		ACF0B9B521F1A0C600C5C7BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		DDACAF01DC4A05659A032CE0 /* Pods */ = {
@@ -535,7 +555,9 @@
 				AC1914DA21D758090012E347 /* ZLBaseUIScrollViewController.m in Sources */,
 				ACE79DED21D32EDF00DDAE9A /* ZLHomeViewController.m in Sources */,
 				AC1914F021EDCFFB0012E347 /* ZLBlock_B_ReverseValueViewController.m in Sources */,
+				ACCB70AC21EDE63500071A77 /* ZLBlock_Para_Model.m in Sources */,
 				AC1914EA21EDC2CB0012E347 /* ZLKLCommonViewController.m in Sources */,
+				ACCB70AF21EDE66300071A77 /* ZLBlock_Para_cellView.m in Sources */,
 				ACE79DEA21D32DD000DDAE9A /* ZLAppDelegate.m in Sources */,
 				AC1914D721D754150012E347 /* ZLUIListScrollViewController.m in Sources */,
 				ACE79DF221D36F6500DDAE9A /* ZLTableViewController.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ZLBlock_Para_ViewController.h"
-
+#import "ZLBlock_Para_Model.h"
 @interface ZLBlock_Para_ViewController ()
 
 @end
@@ -18,6 +18,12 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"Para-View";
+    
+    [ZLBlock_Para_Model paraBlockFunction:@"" completion:^(id respObject) {
+        NSLog(@"%@", respObject);
+    } failure:^(NSError *error) {
+        NSLog(@"%@", error);
+    }];
 }
 
 @end
